@@ -1,0 +1,18 @@
+Components:
+
+12V Barrel Jack Input
+
+LM2596 Buck Converter	[12V → 5V regulated]
+
+TP4056 w/ protection	[5V → 4.2V charging]
+https://www.indianhobbycenter.com/cdn/shop/files/TP4056-Module-1.2-A-Li-Ion-Battery-Charging-Board-Micro-USB-with-Current-Protection0.jpg?v=1718803027
+
+
+18650 Li-ion Battery	
+
+MT3608 Boost Converter	[3.7V → 5V output]
+
+ESP32 Vin (5V)
+
+
+https://youtu.be/IIHaPx_3B3Q
