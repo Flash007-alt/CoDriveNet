@@ -1,0 +1,676 @@
+Command: C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.5\tools/idf_monitor.py -p COM6 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 --print_filter MESH --force-color -m 'C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe' 'C:\Espressif\frameworks\esp-idf-v5.5\tools\idf.py'
+[0;32mI (591) MESH: NVS initialized[0m
+[0;32mI (591) MESH: Network interface + event loop ready[0m
+[0;32mI (701) MESH: Wi-Fi started in AP+STA mode[0m
+[0;32mI (981) MESH: MESH_EVENT_STARTED[0m
+[0;32mI (981) MESH: Mesh started[0m
+[0;33mW (981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;33mW (5981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (8901) MESH: MESH_EVENT_PARENT_CONNECTED. Layer: 1[0m
+[0;32mI (8901) MESH: MESH_EVENT_ROOT_ADDRESS (root BSSID available)[0m
+[0;32mI (10541) MESH: MESH_EVENT_CHILD_CONNECTED (a child associated to me)[0m
+[0;32mI (10651) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (10651) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (10981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (10981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (10981) MESH: SENT len=42 layer=1[0m
+[0;32mI (15671) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (15671) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (15981) MESH: SENT len=42 layer=1[0m
+[0;32mI (15981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (15981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (20911) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (20911) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (20981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (20981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (20981) MESH: SENT len=42 layer=1[0m
+[0;32mI (25901) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (25901) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (25981) MESH: SENT len=42 layer=1[0m
+[0;32mI (25981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (25981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (30941) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (30941) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (30981) MESH: SENT len=42 layer=1[0m
+[0;32mI (30981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (30981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (35931) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (35931) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (35981) MESH: SENT len=42 layer=1[0m
+[0;32mI (35981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (35981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (40981) MESH: SENT len=42 layer=1[0m
+[0;32mI (40981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (40981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (41191) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (41191) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (45981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (45981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (45981) MESH: SENT len=42 layer=1[0m
+[0;32mI (46201) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (46201) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (50981) MESH: SENT len=42 layer=1[0m
+[0;32mI (50981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (50981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (51231) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (51231) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (55981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (55981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (55981) MESH: SENT len=42 layer=1[0m
+[0;32mI (56541) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (56541) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (60981) MESH: SENT len=42 layer=1[0m
+[0;32mI (60981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (60981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (61551) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (61551) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (65981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (65981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (65981) MESH: SENT len=42 layer=1[0m
+[0;32mI (66571) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (66571) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (70981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (70981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (70981) MESH: SENT len=42 layer=1[0m
+[0;32mI (71901) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (71901) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (75981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (75981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (75981) MESH: SENT len=42 layer=1[0m
+[0;32mI (76921) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (76921) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (80981) MESH: SENT len=42 layer=1[0m
+[0;32mI (80981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (80981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (81921) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (81921) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (85981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (85981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (85981) MESH: SENT len=42 layer=1[0m
+[0;32mI (86931) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (86931) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (90981) MESH: SENT len=42 layer=1[0m
+[0;32mI (90981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (90981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (92181) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (92181) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (95981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (95981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (95981) MESH: SENT len=42 layer=1[0m
+[0;32mI (97171) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (97171) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (100981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (100981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (100981) MESH: SENT len=42 layer=1[0m
+[0;32mI (102201) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (102201) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (105981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (105981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (105981) MESH: SENT len=42 layer=1[0m
+[0;32mI (107191) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (107191) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (110981) MESH: SENT len=42 layer=1[0m
+[0;32mI (110981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (110981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (112491) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (112491) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (115981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (115981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (115981) MESH: SENT len=42 layer=1[0m
+[0;32mI (117481) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (117481) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (120981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (120981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (120981) MESH: SENT len=42 layer=1[0m
+[0;32mI (122491) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (122491) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (125981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (125981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (125981) MESH: SENT len=42 layer=1[0m
+[0;32mI (127501) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (127501) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (130981) MESH: SENT len=42 layer=1[0m
+[0;32mI (130981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (130981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (132761) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (132761) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (135981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (135981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (135981) MESH: SENT len=42 layer=1[0m
+[0;32mI (137761) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (137761) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (140981) MESH: SENT len=42 layer=1[0m
+[0;32mI (140981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (140981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (142771) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (142771) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (145981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (145981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (145981) MESH: SENT len=42 layer=1[0m
+[0;32mI (147771) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (147771) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (150981) MESH: SENT len=42 layer=1[0m
+[0;32mI (150981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (150981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (153011) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (153011) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (155981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (155981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (155981) MESH: SENT len=42 layer=1[0m
+[0;32mI (158021) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (158021) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (160981) MESH: SENT len=42 layer=1[0m
+[0;32mI (160981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (160981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (163031) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (163031) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (165981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (165981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (165981) MESH: SENT len=42 layer=1[0m
+[0;32mI (168031) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (168031) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (170981) MESH: SENT len=42 layer=1[0m
+[0;32mI (170981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (170981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (173281) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (173281) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (175981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (175981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (175981) MESH: SENT len=42 layer=1[0m
+[0;32mI (178281) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (178281) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (180981) MESH: SENT len=42 layer=1[0m
+[0;32mI (180981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (180981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (183301) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (183301) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (185981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (185981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (185981) MESH: SENT len=42 layer=1[0m
+[0;32mI (188301) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (188301) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (190981) MESH: SENT len=42 layer=1[0m
+[0;32mI (190981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (190981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (193561) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (193561) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (195981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (195981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (195981) MESH: SENT len=42 layer=1[0m
+[0;32mI (198551) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (198551) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (200981) MESH: SENT len=42 layer=1[0m
+[0;32mI (200981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (200981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (203551) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (203551) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (205981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (205981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (205981) MESH: SENT len=42 layer=1[0m
+[0;32mI (208571) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (208571) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (210981) MESH: SENT len=42 layer=1[0m
+[0;32mI (210981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (210981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (215981) MESH: SENT len=42 layer=1[0m
+[0;32mI (215981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (215981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (220541) MESH: MESH_EVENT_CHILD_DISCONNECTED (a child left)[0m
+[0;32mI (220981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (220981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (220981) MESH: SENT len=42 layer=1[0m
+[0;32mI (225981) MESH: SENT len=42 layer=1[0m
+[0;32mI (225981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (225981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (230981) MESH: SENT len=42 layer=1[0m
+[0;32mI (230981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (230981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (235981) MESH: SENT len=42 layer=1[0m
+[0;32mI (235981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (235981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (240981) MESH: SENT len=42 layer=1[0m
+[0;32mI (240981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (240981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (245981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (245981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (245981) MESH: SENT len=42 layer=1[0m
+[0;32mI (250981) MESH: SENT len=42 layer=1[0m
+[0;32mI (250981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (250981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (255981) MESH: SENT len=42 layer=1[0m
+[0;32mI (255981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (255981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (260981) MESH: SENT len=42 layer=1[0m
+[0;32mI (260981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (260981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (265981) MESH: SENT len=42 layer=1[0m
+[0;32mI (265981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (265981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (270981) MESH: SENT len=42 layer=1[0m
+[0;32mI (270981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (270981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (275981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (275981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (275981) MESH: SENT len=42 layer=1[0m
+[0;32mI (280981) MESH: SENT len=42 layer=1[0m
+[0;32mI (280981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (280981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (285981) MESH: SENT len=42 layer=1[0m
+[0;32mI (285981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (285981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (290981) MESH: SENT len=42 layer=1[0m
+[0;32mI (290981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (290981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (295981) MESH: SENT len=42 layer=1[0m
+[0;32mI (295981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (295981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (297141) MESH: MESH_EVENT_CHILD_CONNECTED (a child associated to me)[0m
+[0;32mI (297401) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (297401) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (300981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (300981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (300981) MESH: SENT len=42 layer=1[0m
+[0;32mI (302401) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (302401) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (305981) MESH: SENT len=42 layer=1[0m
+[0;32mI (305981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (305981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (310981) MESH: SENT len=42 layer=1[0m
+[0;32mI (310981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (310981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (313131) MESH: MESH_EVENT_CHILD_DISCONNECTED (a child left)[0m
+[0;32mI (315981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (315981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (315981) MESH: SENT len=42 layer=1[0m
+[0;32mI (320981) MESH: SENT len=42 layer=1[0m
+[0;32mI (320981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (320981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (325981) MESH: SENT len=42 layer=1[0m
+[0;32mI (325981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (325981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (327571) MESH: MESH_EVENT_CHILD_CONNECTED (a child associated to me)[0m
+[0;32mI (327771) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (327771) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (330981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (330981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (330981) MESH: SENT len=42 layer=1[0m
+[0;32mI (332771) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (332771) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (335981) MESH: SENT len=42 layer=1[0m
+[0;32mI (335981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (335981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (337801) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (337801) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (340981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (340981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (340981) MESH: SENT len=42 layer=1[0m
+[0;32mI (342801) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (342801) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (345981) MESH: SENT len=42 layer=1[0m
+[0;32mI (345981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (345981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (348081) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (348081) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (350981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (350981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (350981) MESH: SENT len=42 layer=1[0m
+[0;32mI (353071) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (353071) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (355981) MESH: SENT len=42 layer=1[0m
+[0;32mI (355981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (355981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (358101) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (358101) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (360981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (360981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (360981) MESH: SENT len=42 layer=1[0m
+[0;32mI (363101) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (363101) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (365981) MESH: SENT len=42 layer=1[0m
+[0;32mI (365981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (365981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (368351) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (368351) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (370981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (370981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (370981) MESH: SENT len=42 layer=1[0m
+[0;32mI (373361) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (373361) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (375981) MESH: SENT len=42 layer=1[0m
+[0;32mI (375981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (375981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (378361) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (378361) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (380981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (380981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (380981) MESH: SENT len=42 layer=1[0m
+[0;32mI (383371) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (383371) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (385981) MESH: SENT len=42 layer=1[0m
+[0;32mI (385981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (385981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (388621) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (388621) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (390981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (390981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (390981) MESH: SENT len=42 layer=1[0m
+[0;32mI (393621) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (393621) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (395981) MESH: SENT len=42 layer=1[0m
+[0;32mI (395981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (395981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (398631) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (398641) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (400981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (400981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (400981) MESH: SENT len=42 layer=1[0m
+[0;32mI (403631) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (403631) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (405981) MESH: SENT len=42 layer=1[0m
+[0;32mI (405981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (405981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (408911) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (408911) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (410981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (410981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (410981) MESH: SENT len=42 layer=1[0m
+[0;32mI (413901) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (413901) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (415981) MESH: SENT len=42 layer=1[0m
+[0;32mI (415981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (415981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (418931) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (418931) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (420981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (420981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (420981) MESH: SENT len=42 layer=1[0m
+[0;32mI (423931) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (423931) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (425981) MESH: SENT len=42 layer=1[0m
+[0;32mI (425981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (425981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (429171) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (429181) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (430981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (430981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (430981) MESH: SENT len=42 layer=1[0m
+[0;32mI (434191) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (434191) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (435981) MESH: SENT len=42 layer=1[0m
+[0;32mI (435981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (435981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (439191) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (439191) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (440981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (440981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (440981) MESH: SENT len=42 layer=1[0m
+[0;32mI (444191) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (444191) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (445981) MESH: SENT len=42 layer=1[0m
+[0;32mI (445981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (445981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (449451) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (449451) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (450981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (450981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (450981) MESH: SENT len=42 layer=1[0m
+[0;32mI (454481) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (454481) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (455981) MESH: SENT len=42 layer=1[0m
+[0;32mI (455981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (455981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (459481) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (459481) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (460981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (460981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (460981) MESH: SENT len=42 layer=1[0m
+[0;32mI (464491) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (464491) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (465981) MESH: SENT len=42 layer=1[0m
+[0;32mI (465981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (465981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (469731) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (469731) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (470981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (470981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (470981) MESH: SENT len=42 layer=1[0m
+[0;32mI (474731) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (474731) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (475981) MESH: SENT len=42 layer=1[0m
+[0;32mI (475981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (475981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (479761) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (479761) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (480981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (480981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (480981) MESH: SENT len=42 layer=1[0m
+[0;32mI (484791) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (484791) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (485981) MESH: SENT len=42 layer=1[0m
+[0;32mI (485981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (485981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (490001) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (490001) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (490981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (490981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (490981) MESH: SENT len=42 layer=1[0m
+[0;32mI (495001) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (495001) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (495981) MESH: SENT len=42 layer=1[0m
+[0;32mI (495981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (495981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (500001) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (500001) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (500981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (500981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (500981) MESH: SENT len=42 layer=1[0m
+[0;32mI (505011) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (505011) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (505981) MESH: SENT len=42 layer=1[0m
+[0;32mI (505981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (505981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (510281) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (510281) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (510981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (510981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (510981) MESH: SENT len=42 layer=1[0m
+[0;32mI (515301) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (515301) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (515981) MESH: SENT len=42 layer=1[0m
+[0;32mI (515981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (515981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (520301) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (520311) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (520981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (520981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (520981) MESH: SENT len=42 layer=1[0m
+[0;32mI (525311) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (525311) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (525981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (525981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (525981) MESH: SENT len=42 layer=1[0m
+[0;32mI (530551) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (530551) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (530981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (530981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (530981) MESH: SENT len=42 layer=1[0m
+[0;32mI (535551) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (535551) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (535981) MESH: SENT len=42 layer=1[0m
+[0;32mI (535981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (535981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (540571) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (540571) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (540981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (540981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (540981) MESH: SENT len=42 layer=1[0m
+[0;32mI (545571) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (545571) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (545981) MESH: SENT len=42 layer=1[0m
+[0;32mI (545981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (545981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (550831) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (550841) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (550981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (550981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (550981) MESH: SENT len=42 layer=1[0m
+[0;32mI (555841) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (555841) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (555981) MESH: SENT len=42 layer=1[0m
+[0;32mI (555981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (555981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (560851) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (560861) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (560981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (560981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (560981) MESH: SENT len=42 layer=1[0m
+[0;32mI (565861) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (565861) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (565981) MESH: SENT len=42 layer=1[0m
+[0;32mI (565981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (565981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (570981) MESH: SENT len=42 layer=1[0m
+[0;32mI (570981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (570981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (571111) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (571111) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (575981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (575981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (575981) MESH: SENT len=42 layer=1[0m
+[0;32mI (576141) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (576141) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (580981) MESH: SENT len=42 layer=1[0m
+[0;32mI (580981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (580981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (581141) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (581141) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (585981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (585981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (585981) MESH: SENT len=42 layer=1[0m
+[0;32mI (586161) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (586161) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (590981) MESH: SENT len=42 layer=1[0m
+[0;32mI (590981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (590981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (591381) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (591381) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (595981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (595981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (595981) MESH: SENT len=42 layer=1[0m
+[0;32mI (596381) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (596381) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (600981) MESH: SENT len=42 layer=1[0m
+[0;32mI (600981) MESH: RECV from f4:65:0b:4a:d7:38 size=42 flag=0x8[0m
+[0;32mI (600981) MESH: Payload: MSG from F4:65:0B:4A:D7:38 layer=1 root=1[0m
+[0;32mI (601381) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (601381) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (605981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (606471) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (606471) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (610981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (615461) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (615461) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (615981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (620481) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (620481) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (620981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;33mW (625981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (629101) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (629101) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (630981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (634491) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (634491) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (635981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (639491) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (639491) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (640981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (644711) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (644711) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (645981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;33mW (650981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (651701) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (651701) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (655981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (656781) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (656781) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (660981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;33mW (665981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (670781) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (670781) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (670981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;33mW (675981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (675991) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (675991) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (680981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (682981) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (682981) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (685981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (688061) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (688061) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (690981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;33mW (695981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;33mW (700981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (702071) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (702071) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (705981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (707281) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (707281) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (710981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;33mW (715981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;33mW (720981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;33mW (725981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (727581) MESH: MESH_EVENT_CHILD_DISCONNECTED (a child left)[0m
+[0;32mI (727671) MESH: MESH_EVENT_CHILD_CONNECTED (a child associated to me)[0m
+[0;33mW (730981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;33mW (735981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;33mW (740981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (741081) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (741081) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;32mI (746081) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (746081) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (750981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (751131) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (751131) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (755981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (756141) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (756141) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (760981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (761361) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (761361) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (765981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (768361) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (768361) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (770981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (773441) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (773441) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (775981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (778441) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (778441) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (780981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (783731) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (783731) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (785981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (788731) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (788731) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (790981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (793801) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (793801) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (795981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (799041) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (799041) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (800981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (804041) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (804041) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (805981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;33mW (810981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;33mW (815981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (816251) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (816251) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (820981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (821491) MESH: RECV from f0:f5:bd:43:99:8c size=42 flag=0x8[0m
+[0;32mI (821491) MESH: Payload: MSG from F0:F5:BD:43:99:8C layer=2 root=0[0m
+[0;33mW (825981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;33mW (830981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m
+[0;32mI (833631) MESH: MESH_EVENT_CHILD_DISCONNECTED (a child left)[0m
+[0;32mI (833791) MESH: MESH_EVENT_CHILD_CONNECTED (a child associated to me)[0m
+[0;33mW (835981) MESH: esp_mesh_send failed: ESP_ERR_MESH_DISCONNECTED[0m

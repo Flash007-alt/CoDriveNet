@@ -23,7 +23,6 @@ C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_uart/libesp_driver_uart
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_ringbuf/libesp_ringbuf.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_mm/libesp_mm.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/vfs/libvfs.a
-C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_vfs_console/libesp_vfs_console.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/mbedtls/mbedtls/library/libmbedx509.a
@@ -36,7 +35,6 @@ C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_partition/libesp_partition.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/app_update/libapp_update.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_app_format/libesp_app_format.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a
-C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_mm/libesp_mm.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_gdbstub/libesp_gdbstub.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/driver/libdriver.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
@@ -47,8 +45,9 @@ C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/sdmmc/libsdmmc.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
+C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_sdio/libesp_driver_sdio.a
+C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_dac/libesp_driver_dac.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a
-C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_tsens/libesp_driver_tsens.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_sdm/libesp_driver_sdm.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_ledc/libesp_driver_ledc.a
@@ -78,6 +77,7 @@ C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/app_update/libapp_update.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_partition/libesp_partition.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/efuse/libefuse.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/bootloader_support/libbootloader_support.a
+C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_mm/libesp_mm.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/spi_flash/libspi_flash.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_system/libesp_system.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_common/libesp_common.a
@@ -99,7 +99,6 @@ C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/app_trace/libapp_trace.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_event/libesp_event.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/nvs_flash/libnvs_flash.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_phy/libesp_phy.a
-C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_vfs_console/libesp_vfs_console.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/lwip/liblwip.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_netif/libesp_netif.a
@@ -118,8 +117,9 @@ C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/sdmmc/libsdmmc.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
+C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_sdio/libesp_driver_sdio.a
+C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_dac/libesp_driver_dac.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a
-C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_tsens/libesp_driver_tsens.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_sdm/libesp_driver_sdm.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/esp_driver_ledc/libesp_driver_ledc.a
@@ -155,8 +155,6 @@ C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/nvs_sec_provider/libnvs_sec_provid
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/perfmon/libperfmon.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/rt/librt.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/spiffs/libspiffs.a
-C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/touch_element/libtouch_element.a
-C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/usb/libusb.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/json/libjson.a
 C:/Users/ASUS/Desktop/ESP-MESHH/build/esp-idf/main/libmain.a
